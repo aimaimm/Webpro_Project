@@ -1,0 +1,19 @@
+#collapsibleNavId{
+    margin-left: 33%;
+}
+#navHead{
+    background-color:pink;
+}
+#btn-Login{
+    border: 1px solid black;
+}
+#btn-Login:hover{
+    background-color:#FCBACB;
+}
+#card-show .btn{
+    background-color:#FCBACB;
+}
+#footer{
+    color: white;
+    background-color: rgb(88, 88, 88);
+}
