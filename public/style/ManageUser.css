@@ -1,0 +1,14 @@
+#collapsibleNavId{
+    margin-left: 31%;
+}
+.nav-link{
+    color: black;
+}
+/* #navbarHead{
+    background-color: pink;
+} */
+#selectTypeUser{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    width: 12%;
+}

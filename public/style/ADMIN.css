@@ -1,0 +1,25 @@
+#selectType{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    width: 12%;
+    
+}
+#collapsibleNavId{
+    margin-left: 31%;
+}
+.nav-link{
+    color: black;
+}
+#btnNext{
+    background-color: pink;
+}
+#footer{
+    background-color: rgb(71, 71, 71);
+    color: white;
+}
+/* #navbarHead{
+    background-color: #ffee44;
+} */
+.card .btn{
+    background-color: pink;
+}

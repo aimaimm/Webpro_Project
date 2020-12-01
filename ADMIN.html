@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./public/style/ADMIN.css">
+</head>
+
+<body>
+
+    <!-- Navbar Admin -->
+    <nav class="navbar navbar-expand-md  bg-muted sticky-top" id="navbarHead">
+        <a class="navbar-brand" href="#"><img src="./public/img/logo.png" width="160px" height="40px"></a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="ADMIN.html">HOME<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="dropdownManage" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false" href="#">MANAGE</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownManage">
+                        <a class="dropdown-item" href="ManagePost.html">Manage Post</a>
+                        <a class="dropdown-item" href="ManageUser.html">Manage User</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-bell"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <a class="fas fa-angry dropdown" id="dropdownAdmin" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false" style="font-size: 30px; color: red;" href="#"></a>
+                <div class="dropdown-menu" aria-labelledby="dropdownAdmin">
+                    <a class="dropdown-item" href="#">Sign Out</a>
+                </div>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Select Type Post -->
+    <div class="container-fluid mb-4">
+        <select class=form-control id="selectType">
+            <option value="">Resent Post</option>
+            <option value="">Active Post</option>
+            <option value="">Wait Confirm Post</option>
+            <option value="">Closed Post</option>
+        </select>
+    </div>
+
+    <div class="container-fluid text-center">
+        <div class="card-columns ml-1 mr-1">
+            <div class="card">
+                <div class="card-body">
+                    <img src="./public/img/book.jpg" width="250px" height="250px" class="card-img">
+                    <h2 class="card-title">Education</h2>
+                    <p class="card-text">Please Donate Book for Me Please!!!</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <img src="./public/img/fire.jpg" width="250px" height="250px" class="card-img">
+                    <h2 class="card-title">Fire Wild</h2>
+                    <p class="card-text">Please Donate Book for Me Please!!!</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <img src="./public/img/poor.jpg" width="250px" height="250px" class="card-img">
+                    <h2 class="card-title">Donate</h2>
+                    <p class="card-text">Please Donate Book for Me Please!!!</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <img src="./public/img/poor.jpg" width="250px" height="250px" class="card-img">
+                    <h2 class="card-title">Donate</h2>
+                    <p class="card-text">Please Donate Book for Me Please!!!</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <img src="./public/img/book.jpg" width="250px" height="250px" class="card-img">
+                    <h2 class="card-title">Education</h2>
+                    <p class="card-text">Please Donate Book for Me Please!!!</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <img src="./public/img/fire.jpg" width="250px" height="250px" class="card-img">
+                    <h2 class="card-title">Fire Wild</h2>
+                    <p class="card-text">Please Donate Book for Me Please!!!</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center" style="margin: 2rem;">
+            <p class="btn" id="btnNext">1 <a href="#" class="fas fa-angle-right"></a></p>
+        </div>
+    </div>
+
+    <hr class="my-1 mb-3" color="gray" width="70%">
+
+    <footer id="footer">
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h3 style="margin-top: 1rem;">CONTACT US</h3>
+                    <p>befriend@webpro.com</p>
+                    <p>333 m.1 Los Angleles, Folida 0000 USA</p>
+                    <p>(836)458-222</p>
+                </div>
+            </div>
+        </div>
+        <hr class="my-2" style="background-color: aliceblue; width: 60%; ">
+        <div class="col-12 text-center " style="margin: 0;">
+            <i class="fab fa-youtube" style="margin-right: 4px; font-size: 30px; margin-bottom: 1px; color: red;"></i>
+            <a href="#" style="text-decoration: none;">
+                <p class="text" style="color: white;">befriend.com</p>
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>

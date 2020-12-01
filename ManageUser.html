@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage User</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.1.5/pagination.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.1.5/pagination.min.js"></script>
+    <link rel="stylesheet" href="./public/style/ManageUser.css">
+    <script src="./public/src/ManageUser.js"></script>
+</head>
+<body>
+    <!-- Navbar Admin -->
+    <nav class="navbar navbar-expand-md bg-muted sticky-top" id="navbarHead">
+        <a class="navbar-brand" href="#"><img src="./public/img/ICONNN.png" width="180px" height="40px"></a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="ADMIN.html">HOME<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="dropdownManage" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false" href="#">MANAGE</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownManage">
+                        <a class="dropdown-item" href="ManagePost.html">Manage Post</a>
+                        <a class="dropdown-item" href="ManageUser.html">Manage User</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-bell"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <a class="fas fa-angry dropdown" id="dropdownAdmin" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false" style="font-size: 30px; color: red;" href="#"></a>
+                <div class="dropdown-menu" aria-labelledby="dropdownAdmin">
+                    <a class="dropdown-item" href="#">Sign Out</a>
+                </div>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Select Type of User -->
+    <div class="container-fluid mb-3">
+        <select class = "form-control" id="selectTypeUser">
+            <option value="All">All</option>
+            <option value="Banished">Banished</option>
+        </select>
+    </div>
+
+    <!-- Show User -->
+    <div class="container-fluid ml-1 mr-1">
+        <div class="card-columns" id="data"></div>
+        <div id="pg"></div>
+    </div>
+</body>
+</html>
