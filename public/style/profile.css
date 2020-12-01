@@ -13,12 +13,19 @@
     background-color: #FCD12A;
     margin-top:5rem ;
 }
-
-
+#DataUser{
+    color: #131d29;
+}
 #history{
     margin-top: 5rem;
     margin-bottom: 1rem;
     
+}
+.modal-title{
+    color: #131d29;
+}
+#txtModalAut{
+    color: #131d29;
 }
 #btnSignout{
     margin-top: 3rem;

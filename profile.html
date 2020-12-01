@@ -118,7 +118,8 @@
                 <div class="container-fluid">
                     <a href="" class="form-control col-md-8 nav-link" id="history">HISTORY</a>
                     <a href="" class="form-control col-md-8 nav-link" id="help">HELP</a>
-                    <input type="button" class="btn btn-warning form-control col-md-8 mb-4" value="SIGN OUT" id="btnSignout">
+                    <input type="button" class="btn btn-warning form-control col-md-8 mb-4" value="SIGN OUT"
+                        id="btnSignout">
                 </div>
             </div>
         </div>
@@ -129,9 +130,9 @@
             <small>Copyright 2020 &copy; Befriend.org</small>
         </div>
 
-        <!-- modal not authentication -->
-
         <!-- Modal -->
+
+        <!-- modal not authentication -->
         <div class="modal fade" id="modelAuthentication" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
             aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -144,25 +145,19 @@
                     </div>
                     <div class="modal-body">
 
-                        <div class="row">
-
-                            <button class="btn btn-info">upload image</button>
+                        <form method="POST" enctype="multipart/form-data" multiple>
+                            <input type="file" name="filetoupload" id="fileUpload" class="col-md-5 ml-5"><br>
+                        </form>
+                        <p id="txtModalAut">(Please take a picture with your ID card***)</p>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-warning" id="saveForAuthentication">Save</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                         </div>
-                        <div class="row">
-                            <button class="btn btn-info">upload 2</button>
-
-
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-light" id="saveForAuthentication">Save</button>
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-
                     </div>
                 </div>
+
             </div>
         </div>
-
         <!-- modal edit profile -->
 
         <div class="modal fade" id="modelEditProfile" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
