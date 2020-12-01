@@ -1,0 +1,32 @@
+#selectType{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    width: 12%;
+    
+}
+
+#btnNext{
+    background-color: #FCD12A;
+}
+.footer {
+    position: none;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: rgb(88, 88, 88);
+    text-align: center;
+ }
+
+.card .btn{
+    background-color: #FCD12A;
+}
+
+#collapsibleNavId
+{ margin-left: 80%; } 
+#collapsibleNavId2
+{ margin-left: 33%; } 
+#navHead
+{ background-color: #131d29; }
+ #btn-Login:hover
+ { background-color:#FCD12A; }
