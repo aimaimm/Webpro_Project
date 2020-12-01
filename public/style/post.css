@@ -1,0 +1,51 @@
+#collapsibleNavId{
+    margin-left: 73%;
+}
+#collapsibleNavId2{
+    margin-left: 33%;
+}
+#navHead{
+    background-color: #131d29;
+}
+#btn-Login:hover{
+    background-color:#FCD12A;
+}
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#card {
+    opacity: 0.9;
+    filter: blur(opacity=30);
+}
+#post {
+    margin-left:92%
+}
+
+#btnUpload {
+    background-color: #FCD12A;
+}
+#title{
+    background-color:  #3944BC;
+    
+}
+.bg{
+    background-color: #FCD12A;
+}
+#ThingsList{
+    margin-left: 5rem;
+}
+#addThingsList{
+    margin-left: 6.5rem;
+}
+#btnPost{
+    margin-left:80% ;
+}
+.footer {
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: rgb(88, 88, 88);
+    text-align: center;
+ }
