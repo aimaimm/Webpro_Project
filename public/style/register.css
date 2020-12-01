@@ -1,0 +1,21 @@
+body {
+   background-image: url("../img/help4.jpg");
+    width: 100%;
+    height: 100%;
+}
+#btnUpload{
+    background-color: #FCD12A;
+    margin-left: 75%;
+    margin-bottom: 0.8rem; 
+    margin-top: 2rem;
+}
+#text-register{
+    color: white ;
+    text-align: center;
+    margin-top: 8%;
+    
+}
+#headRegister{
+    background-color: #FCD12A;
+    border: none;
+}

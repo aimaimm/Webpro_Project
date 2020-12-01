@@ -1,19 +1,48 @@
 #collapsibleNavId{
+    margin-left: 75%;
+}
+#collapsibleNavId2{
     margin-left: 33%;
 }
 #navHead{
-    background-color:pink;
-}
-#btn-Login{
-    border: 1px solid black;
+    background-color: #131d29;
 }
 #btn-Login:hover{
-    background-color:#FCBACB;
+    background-color:#FCD12A;
 }
+#btnSignIn{
+    background-color:#FCD12A;
+}
+
 #card-show .btn{
-    background-color:#FCBACB;
+    background-color:#FCD12A;
+}
+
+#btnMemories{
+    background-color: #000044;
+    color: white;
+}
+#footerbottom{
+    background-color: #131d29;
+    color:#FCD12A ;
 }
 #footer{
+    background-color: #131d29;
+    color: #FCD12A;
+}
+#icontxtDonate{
+  color: #FCD12A;
+ font-size: 70px;
+ text-align: center;
+ 
+}
+.footer {
+    position: none;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     color: white;
     background-color: rgb(88, 88, 88);
-}
+    text-align: center;
+ }
+
