@@ -1,0 +1,48 @@
+#profile{
+    text-align: center;
+    margin-top:5rem ;
+}
+#userProfile{
+    color:#131d29;
+   font-size: 170px;
+   margin-top: 3rem;
+   margin-bottom: 2rem;
+ 
+}
+#infoUser{
+    background-color: #FCD12A;
+    margin-top:5rem ;
+}
+
+
+#history{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    
+}
+#btnSignout{
+    margin-top: 3rem;
+}
+#notauthentication{
+    color: red;
+}
+#saveEditprofile{
+    background-color: #FCD12A;
+}
+#Editname{
+    margin-bottom: 0.5rem;
+}
+#EditUsername{
+    margin-bottom: 0.5rem;
+}
+#EditPassword{
+    margin-bottom: 0.5rem;
+}
+#EditAddress{
+    margin-bottom: 0.5rem;
+}
+#EditPhoneNum{
+    margin-bottom: 0.9rem;
+}
+
+
