@@ -23,7 +23,7 @@
 }
 
 #collapsibleNavId
-{ margin-left: 80%; } 
+{ margin-left: 75%; } 
 #collapsibleNavId2
 { margin-left: 33%; } 
 #collapsibleNavId2 :hover{
@@ -33,3 +33,47 @@
 { background-color: #131d29; }
  #btn-Login:hover
  { background-color:#FCD12A; }
+
+ #btnConfirm{
+     margin-top: 19%;
+ }
+
+ #Pleasewait{
+    color: red;
+    font-size: 33px;
+ }
+ #confirm{
+     margin-top: 1.5rem;
+     font-size: 25px;
+ }
+ #countConfirm{
+     font-weight: 500;
+ }
+
+ #all{
+     color: blue;
+     font-size: 21px;
+     font-weight: 530;
+ }
+
+ #active{
+     color: rgb(3, 92, 3);
+     font-size: 21px;
+     font-weight: 530;
+ }
+
+ #wait{
+     color: rgb(194, 194, 1);
+     font-size: 21px;
+     font-weight: 530;
+ }
+
+ #close{
+    color:red;
+    font-size: 21px;
+     font-weight: 530;
+ }
+
+ #reportText{
+     color: red;
+ }

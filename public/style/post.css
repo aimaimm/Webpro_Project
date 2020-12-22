@@ -33,11 +33,11 @@
 .bg{
     background-color: #FCD12A;
 }
-#ThingsList{
-    margin-left: 5rem;
+#txtThingsList{
+    margin-left: 4.9rem;
 }
 #addThingsList{
-    margin-left: 6.5rem;
+    margin-left: 6.6rem;
 }
 #btnPost{
     margin-left:80% ;

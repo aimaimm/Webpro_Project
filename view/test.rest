@@ -1,0 +1,20 @@
+POST http://localhost:3000/signupuser HTTP/1.1
+content-type: application/json
+
+{
+    "Username" : "Thida",
+    "Password" : "1559",
+    "Firstname" : "TTT",
+    "Lastname" : "TTT",
+    "PhoneNumber": "53456464",
+    "Address": "asf;ladkf;sdkfs"
+
+}
+
+#####
+GET http://localhost:3000/count
+
+
+
+
+

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.Be Friend</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.1.5/pagination.css">
+    <link rel="stylesheet" href="style/INDEX.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.1.5/pagination.min.js"></script>
+    <script src="src/welcome.js"></script>
+
+</head>
+
+<body>
+    <!-- nav Head  -->
+    <nav class="navbar navbar-expand-sm " id="navHead">
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <form class="form-inline my-2 my-lg-0 ">
+                <input class="form-control mr-sm-2  " type="text" placeholder="Search">
+                <button class="btn btn-outline-warning my-2 my-sm-0 " type="submit">Search</button>
+            </form>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">About Us </a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg shadow-sm navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" width="140px" height="45px" alt=""></a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId2">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">HOME </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="btnPost">POST</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="" id="btnBoxnoti">BOX</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="btnRing"><i class="fas fa-bell"></i><span class="badge badge-pill badge-danger" id="countConfirm">3</span></a>
+
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <a href="#" class="nav-link dropdown-toggle" id="dropdownmenu" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="true"><i class="fas fa-user"
+                        style="font-size: 25px; color: black;"></i></a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownmenu">
+                    <a href="#" id="btnProfile" class="dropdown-item">Profile</a>
+                    <a href="#" id="btnsignOut" class="dropdown-item">SING OUT</a>
+                </div>
+            </form>
+        </div>
+    </nav>
+    <!-- carusel Image -->
+
+    <div id="carouselId" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselId" data-slide-to="1"></li>
+            <li data-target="#carouselId" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner" role="listbox">
+
+            <div class="carousel-item active">
+                <img src="img/victim4-1.jpg" alt="First slide" width="100%" height="100%">
+                <div class="carousel-caption ">
+                    <h3>For Victim</h3>
+                    <p>Your donation to Victim Support Service will help people.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/cat-1.jpg" alt="Second slide" width="100%" height="100%">
+                <div class="carousel-caption">
+                    <h3>For Animals</h3>
+                    <p>save animals from suffering and give them the expert treatment and care they need</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/child4-1.jpg" alt="Third slide" width="100%" height="100%">
+                <div class="carousel-caption">
+                    <h3>For Poor community</h3>
+                    <p>help fellow nonprofits access the funding, tools, training, and support they need to serve their
+                        communities.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- text for memorie -->
+    <div class="text col-md-8 mt-5 offset-md-2">
+        <h1 class="display-5">Genaral Donate</h1>
+        <p class="lead">Every penny donated makes a huge difference to the work we do, young children and their
+            families. It literally can mean a case of life or death for some. While all gifts are gratefully received, a
+            regular donation is best for the charity to be able to plan ahead to achieve its goals in relieving people
+            from poverty.</p>
+        <hr class="my-2">
+        <p>More info</p>
+        <p class="lead">
+            <a class="btn mb-4" href="#" role="button" id="btnMemories">Memories</a>
+        </p>
+    </div>
+    </div>
+
+
+    <!-- Line  -->
+    <hr class="my-1" width="65%" style="color: black;" style="margin-top: 2rem;">
+
+    <div class="col-md-12 mt-3 text-center">
+        <i class="fas fa-hand-holding-heart ml-4" id="icontxtDonate"></i>
+        <h3 class="mb-5">Please Donate</h3>
+    </div>
+
+    <!-- Show Card Donate -->
+    <div class="container-fluid">
+        <div id="dataDonate" class="card-columns"></div>
+        <div id="pg" ></div>
+    </div>
+
+
+
+    <!-- Modal Box-->
+    <div class="modal fade" id="modalBoxShow" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Wait to Confirm</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div id="confirm" class="card">
+                            <div id="pagination">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container-fluid padding" id="footer">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h3 style="margin-top: 1rem;">CONTACT US</h3>
+                    <p>befriend@webpro.com</p>
+                    <p>333 m.1 Los Angleles, Folida 0000 USA</p>
+                    <p>(836)458-222</p>
+                </div>
+            </div>
+        </div>
+        <footer id="sticky-footer" class="py-3 bg-dark text-white-50" id="footerbottom">
+            <div class="container text-center">
+                <small>Copyright 2020 &copy; Befriend.org</small>
+            </div>
+        </footer>
+
+    </footer>
+</body>
+
+</html>
