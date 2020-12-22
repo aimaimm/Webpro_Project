@@ -1,14 +1,17 @@
 #collapsibleNavId{
-    margin-left: 74%;
+    margin-left: 75%;
 }
+
 #collapsibleNavId2 {
     margin-left: 33%;
 }
+
 #collapsibleNavId2 :hover{
     color: #fcd12a;
 }
 #navHead{
     background-color: #131d29;
+    font-size: 15px;
 }
 #btn-Login:hover{
     color: #000044;
@@ -49,5 +52,6 @@
     background-color: rgb(88, 88, 88);
     text-align: center;
  }
+
  
 
