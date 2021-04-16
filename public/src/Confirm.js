@@ -1,3 +1,4 @@
+alert("alohaa")
 $(document).ready(function () {
     
     $.ajax({
