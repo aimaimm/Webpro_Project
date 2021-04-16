@@ -39,6 +39,9 @@ $(document).ready(function () {
         })
     })
 
+    $("#btnUs").on("click" , function(){
+        window.location.replace("/AboutUs")
+    })
 
     // ---------------- Show Count Confirm ------------------------
     $.ajax({
